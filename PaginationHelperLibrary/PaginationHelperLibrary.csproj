@@ -13,6 +13,7 @@
     <PackageReleaseNotes>You can do pagination for your any set of data with page Number,size and filters if you want to filter out data .</PackageReleaseNotes>
     <Copyright>asimplify@2021</Copyright>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Version>1.0.3</Version>
   </PropertyGroup>
 
   <ItemGroup>
