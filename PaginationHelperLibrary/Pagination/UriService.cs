@@ -30,8 +30,8 @@ namespace PaginationHelper.Pagination
                 return new Uri(_endPointUrl);
             }
 
-            return _enpointUri;
-
+            _endPointUrl = QueryHelpers.AddQueryString(_enpointUri.ToString(), queryParams);
+            return new Uri(_endPointUrl);
         }
     }
 }
