@@ -17,7 +17,7 @@ namespace PaginationHelper.Pagination
         public PaginationFilter(int pageNumber, int pageSize, Dictionary<string, string> filter =null)
         {
             this.PageNumber = pageNumber < 1 ? 1 : pageNumber;
-            this.PageSize = pageSize > 10 ? 10 : pageSize;
+            this.PageSize = pageSize > 30 ? 30 : pageSize;
             this.Filter = filter;
         }
     }
