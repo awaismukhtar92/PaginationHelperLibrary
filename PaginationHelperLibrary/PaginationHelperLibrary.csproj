@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>PaginationHelper</RootNamespace>
+    <Authors>Awais Mukhtar</Authors>
+    <Company>Asimplify</Company>
+    <Product>PaginationHelper</Product>
+    <Description>Library to do api pagination with given page number, page size and filters will give you the whole response with next, previous page links and much more.</Description>
+    <PackageId>Pagination.Api.HelperLibrary</PackageId>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>Pagination, APi, Endpoints</PackageTags>
+    <PackageReleaseNotes>You can do pagination for your any set of data with page Number,size and filters if you want to filter out data .</PackageReleaseNotes>
+    <Copyright>asimplify@2021</Copyright>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="2.2.0" />
+  </ItemGroup>
+
+</Project>

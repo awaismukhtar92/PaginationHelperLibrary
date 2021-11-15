@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaginationHelperLibrary", "PaginationHelperLibrary\PaginationHelperLibrary.csproj", "{42DB5AE3-C551-4063-8F6E-1A74EFD1761C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaginationProjectTemp", "PaginationProjectTemp\PaginationProjectTemp.csproj", "{E2B75A2D-6624-44D7-8562-A93B14A97927}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42DB5AE3-C551-4063-8F6E-1A74EFD1761C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42DB5AE3-C551-4063-8F6E-1A74EFD1761C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42DB5AE3-C551-4063-8F6E-1A74EFD1761C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42DB5AE3-C551-4063-8F6E-1A74EFD1761C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2B75A2D-6624-44D7-8562-A93B14A97927}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2B75A2D-6624-44D7-8562-A93B14A97927}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2B75A2D-6624-44D7-8562-A93B14A97927}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2B75A2D-6624-44D7-8562-A93B14A97927}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5823C9B-DC06-4A1A-8E35-E6A4B4BF9579}
+	EndGlobalSection
+EndGlobal
