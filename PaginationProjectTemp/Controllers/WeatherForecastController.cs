@@ -54,8 +54,8 @@ namespace PaginationProjectTemp.Controllers
             var filter = new Dictionary<string, string>();
             filter.Add("status", "true");
             filter.Add("firstName", "A");
-            var filters = new PaginationFilter(1, 10, filter);
-            return Ok(pagination.CreatePagedReponse<WeatherForecast>(data, 112, route, Request));
+            var filters = new PaginationFilter(1, 10);
+            return Ok(pagination.CreatePagedReponse<WeatherForecast>(data, 112, route, Request,filters));
         }
     }
 }
